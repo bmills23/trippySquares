@@ -97,5 +97,5 @@ BODY {
 .rotate {
     animation-name: rotate;
     animation-duration: 600s;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease-in-out;
 }
