@@ -1,0 +1,67 @@
+BODY {
+    background: black;
+    transition: 0.25s;
+}
+
+button {
+    margin: auto;
+    padding: auto;
+}
+
+  DIV {
+    border: white 2px solid;
+    width: 100%;
+    display: flex;
+    transition: 0.5s;
+    }
+
+@media only screen and (max-width: 12000px) {
+    #top {
+        height: 100%;
+    }
+    DIV {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #top {
+        width: 800px;
+        height: 800px;
+    }
+    DIV {
+        padding: 29px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #top {
+        width: 600px;
+        height: 600px;
+    }
+    DIV {
+        padding: 21px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #top {
+        width: 400px;
+        height: 400px;
+    }
+    DIV {
+        padding: 12.8px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    #top {
+        width: 250px;
+        height: 250px;
+    }
+    DIV {
+        padding: 6.5px;
+    }
+}
+
