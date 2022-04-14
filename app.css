@@ -17,7 +17,7 @@ BODY {
     border: white 2px solid;
     width: 100%;
     display: flex;
-    border-radius: 40%;
+    border-radius: 50%;
     transition: 0.5s;
     }
 
