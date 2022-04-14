@@ -11,6 +11,6 @@ setInterval(function() {
     const r = randomInt(256)
     // const g = randomInt(256)
     // const b = randomInt(256)
-    document.getElementById(`${i}`).style.backgroundColor = `rgb(${r},0,0)`
+    document.getElementById(`${i}`).style.backgroundColor = `rgb(${r},200,150)`
     }
 }, 400)
