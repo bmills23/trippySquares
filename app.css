@@ -3,10 +3,15 @@ BODY {
     transition: 2s;
 }
 
-button {
+[id='1'] {
     margin: auto;
-    padding: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
+
 
   DIV {
     border: white 2px solid;
