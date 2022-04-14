@@ -1,6 +1,6 @@
 BODY {
     background: black;
-    transition: 0.25s;
+    transition: 2s;
 }
 
 button {
@@ -12,11 +12,12 @@ button {
     border: white 2px solid;
     width: 100%;
     display: flex;
+    border-radius: 20%;
     transition: 0.5s;
     }
 
 @media only screen and (max-width: 12000px) {
-    #top {
+    [id='1'] {
         height: 100%;
     }
     DIV {
@@ -25,7 +26,7 @@ button {
 }
 
 @media only screen and (max-width: 1200px) {
-    #top {
+    [id='1'] {
         width: 800px;
         height: 800px;
     }
@@ -35,7 +36,7 @@ button {
 }
 
 @media only screen and (max-width: 992px) {
-    #top {
+    [id='1'] {
         width: 600px;
         height: 600px;
     }
@@ -45,7 +46,7 @@ button {
 }
 
 @media only screen and (max-width: 768px) {
-    #top {
+    [id='1'] {
         width: 400px;
         height: 400px;
     }
@@ -55,8 +56,7 @@ button {
 }
 
 @media only screen and (max-width: 576px) {
-
-    #top {
+    [id='1'] {
         width: 250px;
         height: 250px;
     }
@@ -65,3 +65,21 @@ button {
     }
 }
 
+@keyframes rotate {
+    10% {transform: rotate(360deg)}
+    20% {transform: rotate(-360deg)}
+    30% {transform: rotate(360deg)}
+    40% {transform: rotate(-360deg)}
+    50% {transform: rotate(360deg)}
+    60% {transform: rotate(-360deg)}
+    70% {transform: rotate(360deg)}
+    80% {transform: rotate(-360deg)}
+    90% {transform: rotate(360deg)}
+    100% {transform: rotate(-360deg)}
+}
+
+.rotate {
+    animation-name: rotate;
+    animation-duration: 600s;
+    transition-timing-function: linear;
+}
