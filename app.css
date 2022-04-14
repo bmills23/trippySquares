@@ -26,6 +26,9 @@ BODY {
         height: 1200px;
         width: 1200px;
     }
+    DIV {
+        padding: 40px;
+    }
 }
 
 @media only screen and (max-width: 1600px) {
