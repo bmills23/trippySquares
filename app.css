@@ -21,6 +21,13 @@ BODY {
     transition: 0.5s;
     }
 
+@media only screen and (max-width: 12000px) {
+    [id='1'] {
+        height: 1200px;
+        width: 1200px;
+    }
+}
+
 @media only screen and (max-width: 1600px) {
     [id='1'] {
         height: 1000px;
