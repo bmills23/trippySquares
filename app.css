@@ -1,7 +1,7 @@
 BODY {
     background: black;
     transition: 0.1s;
-}
+} /*controls smooth transition of the bg and defaults bg color to black*/
 
 [id='1'] {
     margin: auto;
@@ -10,8 +10,7 @@ BODY {
     bottom: 0;
     left: 0;
     right: 0;
-}
-
+} /*centers the outer square, i.e. with id of 1*/
 
 DIV {
     border: white 2px solid;
@@ -19,7 +18,10 @@ DIV {
     width: 100%;
     border-radius: 20%;
     transition: 0.5s;
-    }
+    } /*default characteristics of all squares*/
+
+/*stuff below this line controls size of squares based on viewing devices; notice how it makes a call to the outer
+square which in turn controls the size of the other squares*/
 
 @media only screen and (max-width: 12000px) {
     [id='1'] {
@@ -81,12 +83,14 @@ DIV {
     }
 }
 
+/*everything below this line controls the animation of rotation*/
+
 @keyframes rotate {
     10% {transform: rotate(360deg)}
     20% {transform: rotate(-360deg)}
     30% {transform: rotate(360deg)}
     40% {transform: rotate(-360deg)}
-    50% {transform: rotate(360deg)}
+    50% {transform: rotate(360deg)}     /*flip flops between different rotation directions*/
     60% {transform: rotate(-360deg)}
     70% {transform: rotate(360deg)}
     80% {transform: rotate(-360deg)}
@@ -95,7 +99,7 @@ DIV {
 }
 
 .rotate {
-    animation-name: rotate;
+    animation-name: rotate; /*calls the rotate animation above*/
     animation-duration: 600s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; 
 }
