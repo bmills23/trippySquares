@@ -13,7 +13,7 @@ BODY {
 }
 
 
-DIV:(not[id='1']) {
+DIV {
     border: white 2px solid;
     display: flex;
     width: 100%;
