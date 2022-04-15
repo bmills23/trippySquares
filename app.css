@@ -1,6 +1,6 @@
 BODY {
     background: black;
-    transition: 2s;
+    transition: 0.1s;
 }
 
 [id='1'] {
