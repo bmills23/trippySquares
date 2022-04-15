@@ -13,9 +13,10 @@ BODY {
 }
 
 
-  DIV {
+DIV:(not[id='1']) {
     border: white 2px solid;
     display: flex;
+    width: 100%;
     border-radius: 20%;
     transition: 0.5s;
     }
