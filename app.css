@@ -15,7 +15,6 @@ BODY {
 
   DIV {
     border: white 2px solid;
-    width: 100%;
     display: flex;
     border-radius: 20%;
     transition: 0.5s;
