@@ -17,5 +17,5 @@ setInterval(function() {
 
 setInterval(function() {
     const r = randomInt(256)
-    document.body.style.color = `rgb(${r},0,255)`
+    document.body.style.backgroundColor = `rgb(${r},0,255)`
 }, 200)
