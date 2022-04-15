@@ -12,5 +12,7 @@ setInterval(function() {
     // const g = randomInt(256)
     // const b = randomInt(256)
     document.getElementById(`${i}`).style.backgroundColor = `rgb(${r},0,255)`
+    document.getElementById(`${i}`).style.borderColor = `rgb(${r},0,255)`
     }
 }, 400)
+
